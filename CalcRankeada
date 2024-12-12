@@ -1,0 +1,21 @@
+# Calculadora Rankeada
+
+saldoVitoria = float(input(f"Informe o numero de vitorias: "))
+
+if saldoVitoria <= 10:
+    print(f"O Heroi tem saldo de {saldoVitoria} está no nivel Ferro")
+elif saldoVitoria <=11:
+    print(f"O Heroi tem saldo de {saldoVitoria} está no nivel Bronze")
+elif saldoVitoria <=21:
+    print(f"O Heroi tem saldo de {saldoVitoria} está no nivel Prata")
+elif saldoVitoria <=51:
+    print(f"O Heroi tem saldo de {saldoVitoria} está no nivel Ouro") 
+elif saldoVitoria <=81:
+    print(f"O Heroi tem saldo de {saldoVitoria} está no nivel Platina")
+elif saldoVitoria <=91:
+    print(f"O Heroi tem saldo de {saldoVitoria} está no nivel Ascedente")
+elif saldoVitoria <=100:
+    print(f"O Heroi tem saldo de {saldoVitoria} está no nivel Imortal")
+else:
+    saldoVitoria > 100 
+    print(f"O Heroi tem saldo de {saldoVitoria} está no nivel Radiante")
